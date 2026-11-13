@@ -1,0 +1,19 @@
+{
+  "@@locale": "ar",
+  "appName": "تيرف ميت",
+  "tagline": "اعثر. احجز. العب.",
+  "welcomeBack": "أهلاً بعودتك",
+  "signInSubtitle": "سجّل الدخول لحجز الملاعب والانضمام إلى المباريات",
+  "signIn": "تسجيل الدخول",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "emailRequired": "البريد الإلكتروني مطلوب",
+  "emailInvalid": "أدخل بريداً إلكترونياً صحيحاً",
+  "passwordShort": "يجب ألا تقل كلمة المرور عن 6 أحرف",
+  "continueAsGuest": "المتابعة كضيف",
+  "noAccount": "ليس لديك حساب؟",
+  "createAccount": "إنشاء حساب",
+  "signInFailed": "فشل تسجيل الدخول. حاول مرة أخرى.",
+  "language": "English",
+  "homePlaceholder": "الرئيسية – في الصفحة القادمة"
+}

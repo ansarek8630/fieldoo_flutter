@@ -1,0 +1,19 @@
+{
+  "@@locale": "en",
+  "appName": "TurfMate",
+  "tagline": "Find. Book. Play.",
+  "welcomeBack": "Welcome back",
+  "signInSubtitle": "Sign in to book turfs and join matches",
+  "signIn": "Sign In",
+  "email": "Email",
+  "password": "Password",
+  "emailRequired": "Email is required",
+  "emailInvalid": "Enter a valid email address",
+  "passwordShort": "Password must be at least 6 characters",
+  "continueAsGuest": "Continue as guest",
+  "noAccount": "Don't have an account?",
+  "createAccount": "Create account",
+  "signInFailed": "Sign in failed. Please try again.",
+  "language": "العربية",
+  "homePlaceholder": "Home – coming in the next page"
+}
