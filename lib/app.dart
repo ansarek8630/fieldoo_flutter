@@ -10,7 +10,7 @@ class FieldooApp extends ConsumerWidget {
   const FieldooApp({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context, WidgetRef ref) {     
     return MaterialApp.router(
       title: 'TurfMate',
       debugShowCheckedModeBanner: false,
