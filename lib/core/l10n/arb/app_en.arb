@@ -15,5 +15,17 @@
   "createAccount": "Create account",
   "signInFailed": "Sign in failed. Please try again.",
   "language": "العربية",
-  "homePlaceholder": "Home – coming in the next page"
+  "homePlaceholder": "Home – coming in the next page",
+  "createAccountTitle": "Join TurfMate",
+  "createAccountSubtitle": "Create your player profile in a minute",
+  "fullName": "Full name",
+  "confirmPassword": "Confirm password",
+  "nameRequired": "Your name is required",
+  "passwordsMismatch": "Passwords do not match",
+  "addPhoto": "Add profile photo",
+  "changePhoto": "Change photo",
+  "takePhoto": "Take a photo",
+  "chooseGallery": "Choose from gallery",
+  "alreadyHaveAccount": "Already have an account?",
+  "accountCreateFailed": "Could not create your account. Please try again."
 }

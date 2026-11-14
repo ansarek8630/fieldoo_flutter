@@ -80,7 +80,7 @@ class _SignInPageState extends ConsumerState<SignInPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(l10n!.welcomeBack,
+                    Text(l10n.welcomeBack,
                         style: Theme.of(context)
                             .textTheme
                             .headlineSmall
@@ -122,7 +122,9 @@ class _SignInPageState extends ConsumerState<SignInPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(l10n.noAccount),
-                        TextButton(onPressed: () {}, child: Text(l10n.createAccount)),
+                        TextButton(
+            onPressed: () => context.go('/sign-up'),
+            child: Text(l10n.createAccount)),
                       ],
                     ),
                   ],

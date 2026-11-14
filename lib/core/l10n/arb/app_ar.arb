@@ -15,5 +15,17 @@
   "createAccount": "إنشاء حساب",
   "signInFailed": "فشل تسجيل الدخول. حاول مرة أخرى.",
   "language": "English",
-  "homePlaceholder": "الرئيسية – في الصفحة القادمة"
+  "homePlaceholder": "الرئيسية – في الصفحة القادمة",
+  "createAccountTitle": "انضم إلى تيرف ميت",
+  "createAccountSubtitle": "أنشئ ملفك كلاعب في دقيقة",
+  "fullName": "الاسم الكامل",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "nameRequired": "الاسم مطلوب",
+  "passwordsMismatch": "كلمتا المرور غير متطابقتين",
+  "addPhoto": "إضافة صورة الملف الشخصي",
+  "changePhoto": "تغيير الصورة",
+  "takePhoto": "التقاط صورة",
+  "chooseGallery": "اختيار من المعرض",
+  "alreadyHaveAccount": "لديك حساب بالفعل؟",
+  "accountCreateFailed": "تعذر إنشاء حسابك. حاول مرة أخرى."
 }

@@ -6,6 +6,10 @@
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSCameraUsageDescription</key>
+    <string>Take a profile photo</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Choose a profile photo</string>
 	<key>CFBundleDisplayName</key>
 	<string>Fieldoo Flutter</string>
 	<key>CFBundleExecutable</key>

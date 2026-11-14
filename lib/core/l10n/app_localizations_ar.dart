@@ -56,4 +56,40 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get homePlaceholder => 'الرئيسية – في الصفحة القادمة';
+
+  @override
+  String get createAccountTitle => 'انضم إلى تيرف ميت';
+
+  @override
+  String get createAccountSubtitle => 'أنشئ ملفك كلاعب في دقيقة';
+
+  @override
+  String get fullName => 'الاسم الكامل';
+
+  @override
+  String get confirmPassword => 'تأكيد كلمة المرور';
+
+  @override
+  String get nameRequired => 'الاسم مطلوب';
+
+  @override
+  String get passwordsMismatch => 'كلمتا المرور غير متطابقتين';
+
+  @override
+  String get addPhoto => 'إضافة صورة الملف الشخصي';
+
+  @override
+  String get changePhoto => 'تغيير الصورة';
+
+  @override
+  String get takePhoto => 'التقاط صورة';
+
+  @override
+  String get chooseGallery => 'اختيار من المعرض';
+
+  @override
+  String get alreadyHaveAccount => 'لديك حساب بالفعل؟';
+
+  @override
+  String get accountCreateFailed => 'تعذر إنشاء حسابك. حاول مرة أخرى.';
 }

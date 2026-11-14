@@ -2,4 +2,10 @@ import '../entities/app_user.dart';
 
 abstract interface class AuthRepository {
   Future<AppUser> signIn({required String email, required String password});
+  Future<AppUser> signUp({
+    required String name,
+    required String email,
+    required String password,
+    String? photoPath,
+  });
 }
