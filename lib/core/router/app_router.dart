@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../features/auth/presentation/pages/sign_in_page.dart';
 import '../../features/auth/presentation/pages/sign_up_page.dart';
+import '../../features/booking/presentation/pages/booking_page.dart';
 import '../../features/shell/presentation/app_shell.dart';
 import '../../features/splash/presentation/splash_page.dart';
 import '../../features/turfs/presentation/pages/turf_details_page.dart';
@@ -19,6 +20,12 @@ final routerProvider = Provider<GoRouter>((ref) => GoRouter(
         GoRoute(
           path: '/turfs/:id',
           builder: (_, state) => TurfDetailsPage(turfId: state.pathParameters['id']!),
+          routes: [
+            GoRoute(
+              path: 'book',
+              builder: (_, state) => BookingPage(turfId: state.pathParameters['id']!),
+            ),
+          ],
         ),
         StatefulShellRoute.indexedStack(
           builder: (_, __, shell) => AppShell(shell: shell),

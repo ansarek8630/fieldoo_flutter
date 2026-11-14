@@ -177,4 +177,62 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get amenityWater => 'Drinking water';
+
+  @override
+  String get bookingTitle => 'Book your slot';
+
+  @override
+  String get selectDate => 'Select date';
+
+  @override
+  String get selectTime => 'Select time';
+
+  @override
+  String get duration => 'Duration';
+
+  @override
+  String hoursCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count hours',
+      one: '1 hour',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get legendAvailable => 'Available';
+
+  @override
+  String get legendBooked => 'Booked';
+
+  @override
+  String get legendSelected => 'Selected';
+
+  @override
+  String get total => 'Total';
+
+  @override
+  String get confirmBooking => 'Confirm booking';
+
+  @override
+  String get selectTimeCta => 'Select a time';
+
+  @override
+  String get bookingConfirmed => 'Booking confirmed!';
+
+  @override
+  String bookingConfirmedMsg(String turf, String date, String time) {
+    return '$turf\n$date · $time';
+  }
+
+  @override
+  String get done => 'Done';
+
+  @override
+  String get bookingFailed => 'Booking failed. Please try again.';
+
+  @override
+  String get today => 'Today';
 }

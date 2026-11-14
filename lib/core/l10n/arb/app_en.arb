@@ -71,5 +71,41 @@
   "amenityShowers": "Showers",
   "amenityCafe": "Cafe",
   "amenityWifi": "Wi-Fi",
-  "amenityWater": "Drinking water"
+  "amenityWater": "Drinking water",
+  "bookingTitle": "Book your slot",
+  "selectDate": "Select date",
+  "selectTime": "Select time",
+  "duration": "Duration",
+  "hoursCount": "{count, plural, =1{1 hour} other{{count} hours}}",
+  "@hoursCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "legendAvailable": "Available",
+  "legendBooked": "Booked",
+  "legendSelected": "Selected",
+  "total": "Total",
+  "confirmBooking": "Confirm booking",
+  "selectTimeCta": "Select a time",
+  "bookingConfirmed": "Booking confirmed!",
+  "bookingConfirmedMsg": "{turf}\n{date} · {time}",
+  "@bookingConfirmedMsg": {
+    "placeholders": {
+      "turf": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "done": "Done",
+  "bookingFailed": "Booking failed. Please try again.",
+  "today": "Today"
 }

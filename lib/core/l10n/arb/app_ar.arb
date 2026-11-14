@@ -54,5 +54,21 @@
   "amenityShowers": "دشّات",
   "amenityCafe": "مقهى",
   "amenityWifi": "واي فاي",
-  "amenityWater": "مياه شرب"
+  "amenityWater": "مياه شرب",
+  "bookingTitle": "احجز موعدك",
+  "selectDate": "اختر التاريخ",
+  "selectTime": "اختر الوقت",
+  "duration": "المدة",
+  "hoursCount": "{count, plural, =1{ساعة} =2{ساعتان} few{{count} ساعات} other{{count} ساعة}}",
+  "legendAvailable": "متاح",
+  "legendBooked": "محجوز",
+  "legendSelected": "محدد",
+  "total": "الإجمالي",
+  "confirmBooking": "تأكيد الحجز",
+  "selectTimeCta": "اختر وقتاً",
+  "bookingConfirmed": "تم تأكيد الحجز!",
+  "bookingConfirmedMsg": "{turf}\n{date} · {time}",
+  "done": "تم",
+  "bookingFailed": "فشل الحجز. حاول مرة أخرى.",
+  "today": "اليوم"
 }

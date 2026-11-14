@@ -427,6 +427,102 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Drinking water'**
   String get amenityWater;
+
+  /// No description provided for @bookingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Book your slot'**
+  String get bookingTitle;
+
+  /// No description provided for @selectDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Select date'**
+  String get selectDate;
+
+  /// No description provided for @selectTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Select time'**
+  String get selectTime;
+
+  /// No description provided for @duration.
+  ///
+  /// In en, this message translates to:
+  /// **'Duration'**
+  String get duration;
+
+  /// No description provided for @hoursCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 hour} other{{count} hours}}'**
+  String hoursCount(int count);
+
+  /// No description provided for @legendAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Available'**
+  String get legendAvailable;
+
+  /// No description provided for @legendBooked.
+  ///
+  /// In en, this message translates to:
+  /// **'Booked'**
+  String get legendBooked;
+
+  /// No description provided for @legendSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'Selected'**
+  String get legendSelected;
+
+  /// No description provided for @total.
+  ///
+  /// In en, this message translates to:
+  /// **'Total'**
+  String get total;
+
+  /// No description provided for @confirmBooking.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm booking'**
+  String get confirmBooking;
+
+  /// No description provided for @selectTimeCta.
+  ///
+  /// In en, this message translates to:
+  /// **'Select a time'**
+  String get selectTimeCta;
+
+  /// No description provided for @bookingConfirmed.
+  ///
+  /// In en, this message translates to:
+  /// **'Booking confirmed!'**
+  String get bookingConfirmed;
+
+  /// No description provided for @bookingConfirmedMsg.
+  ///
+  /// In en, this message translates to:
+  /// **'{turf}\n{date} · {time}'**
+  String bookingConfirmedMsg(String turf, String date, String time);
+
+  /// No description provided for @done.
+  ///
+  /// In en, this message translates to:
+  /// **'Done'**
+  String get done;
+
+  /// No description provided for @bookingFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Booking failed. Please try again.'**
+  String get bookingFailed;
+
+  /// No description provided for @today.
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get today;
 }
 
 class _AppLocalizationsDelegate

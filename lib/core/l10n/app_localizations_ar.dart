@@ -177,4 +177,64 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get amenityWater => 'مياه شرب';
+
+  @override
+  String get bookingTitle => 'احجز موعدك';
+
+  @override
+  String get selectDate => 'اختر التاريخ';
+
+  @override
+  String get selectTime => 'اختر الوقت';
+
+  @override
+  String get duration => 'المدة';
+
+  @override
+  String hoursCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count ساعة',
+      few: '$count ساعات',
+      two: 'ساعتان',
+      one: 'ساعة',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get legendAvailable => 'متاح';
+
+  @override
+  String get legendBooked => 'محجوز';
+
+  @override
+  String get legendSelected => 'محدد';
+
+  @override
+  String get total => 'الإجمالي';
+
+  @override
+  String get confirmBooking => 'تأكيد الحجز';
+
+  @override
+  String get selectTimeCta => 'اختر وقتاً';
+
+  @override
+  String get bookingConfirmed => 'تم تأكيد الحجز!';
+
+  @override
+  String bookingConfirmedMsg(String turf, String date, String time) {
+    return '$turf\n$date · $time';
+  }
+
+  @override
+  String get done => 'تم';
+
+  @override
+  String get bookingFailed => 'فشل الحجز. حاول مرة أخرى.';
+
+  @override
+  String get today => 'اليوم';
 }

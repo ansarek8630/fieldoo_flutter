@@ -1,6 +1,6 @@
-import 'package:fieldoo_flutter/core/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 import '../../../../core/extensions/context_x.dart';
 import '../../../../core/theme/app_colors.dart';
@@ -88,7 +88,7 @@ class _Content extends StatelessWidget {
                     Wrap(spacing: AppSpacing.sm, children: [
                       for (final f in turf.formats) Chip(label: Text(f)),
                     ]),
-                    SectionTitle(l10n!.openingHours),
+                    SectionTitle(l10n.openingHours),
                     Row(children: [
                       const Icon(Icons.schedule, color: AppColors.primary),
                       const SizedBox(width: 8),
@@ -126,11 +126,8 @@ class _Content extends StatelessWidget {
                 Expanded(
                   child: AppButton(
                     label: l10n.bookNow,
-                    // Booking page arrives in the next step.
-                    onPressed: turf.isOpen
-                        ? () => ScaffoldMessenger.of(context)
-                            .showSnackBar(SnackBar(content: Text(l10n.comingSoon)))
-                        : null,
+                    onPressed:
+                        turf.isOpen ? () => context.push('/turfs/${turf.id}/book') : null,
                   ),
                 ),
               ]),
@@ -140,8 +137,4 @@ class _Content extends StatelessWidget {
       ],
     );
   }
-}
-
-extension on AppLocalizations? {
-  String? get formats => null;
 }
