@@ -265,6 +265,84 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Could not create your account. Please try again.'**
   String get accountCreateFailed;
+
+  /// No description provided for @tabTurfs.
+  ///
+  /// In en, this message translates to:
+  /// **'Turfs'**
+  String get tabTurfs;
+
+  /// No description provided for @tabMatches.
+  ///
+  /// In en, this message translates to:
+  /// **'Matches'**
+  String get tabMatches;
+
+  /// No description provided for @tabChat.
+  ///
+  /// In en, this message translates to:
+  /// **'Chat'**
+  String get tabChat;
+
+  /// No description provided for @tabProfile.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get tabProfile;
+
+  /// No description provided for @searchTurfs.
+  ///
+  /// In en, this message translates to:
+  /// **'Search turfs or areas'**
+  String get searchTurfs;
+
+  /// No description provided for @turfsNearYou.
+  ///
+  /// In en, this message translates to:
+  /// **'Turfs near you'**
+  String get turfsNearYou;
+
+  /// No description provided for @noTurfsFound.
+  ///
+  /// In en, this message translates to:
+  /// **'No turfs match your search'**
+  String get noTurfsFound;
+
+  /// No description provided for @retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get retry;
+
+  /// No description provided for @loadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not load data'**
+  String get loadFailed;
+
+  /// No description provided for @comingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming soon'**
+  String get comingSoon;
+
+  /// No description provided for @openNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Open'**
+  String get openNow;
+
+  /// No description provided for @closedNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Closed'**
+  String get closedNow;
+
+  /// No description provided for @perHour.
+  ///
+  /// In en, this message translates to:
+  /// **'{price} AED / hour'**
+  String perHour(int price);
 }
 
 class _AppLocalizationsDelegate

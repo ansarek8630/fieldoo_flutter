@@ -92,4 +92,45 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get accountCreateFailed =>
       'Could not create your account. Please try again.';
+
+  @override
+  String get tabTurfs => 'Turfs';
+
+  @override
+  String get tabMatches => 'Matches';
+
+  @override
+  String get tabChat => 'Chat';
+
+  @override
+  String get tabProfile => 'Profile';
+
+  @override
+  String get searchTurfs => 'Search turfs or areas';
+
+  @override
+  String get turfsNearYou => 'Turfs near you';
+
+  @override
+  String get noTurfsFound => 'No turfs match your search';
+
+  @override
+  String get retry => 'Retry';
+
+  @override
+  String get loadFailed => 'Could not load data';
+
+  @override
+  String get comingSoon => 'Coming soon';
+
+  @override
+  String get openNow => 'Open';
+
+  @override
+  String get closedNow => 'Closed';
+
+  @override
+  String perHour(int price) {
+    return '$price AED / hour';
+  }
 }

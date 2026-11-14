@@ -27,5 +27,18 @@
   "takePhoto": "التقاط صورة",
   "chooseGallery": "اختيار من المعرض",
   "alreadyHaveAccount": "لديك حساب بالفعل؟",
-  "accountCreateFailed": "تعذر إنشاء حسابك. حاول مرة أخرى."
+  "accountCreateFailed": "تعذر إنشاء حسابك. حاول مرة أخرى.",
+  "tabTurfs": "الملاعب",
+  "tabMatches": "المباريات",
+  "tabChat": "الدردشة",
+  "tabProfile": "حسابي",
+  "searchTurfs": "ابحث عن ملعب أو منطقة",
+  "turfsNearYou": "ملاعب قريبة منك",
+  "noTurfsFound": "لا توجد ملاعب مطابقة لبحثك",
+  "retry": "إعادة المحاولة",
+  "loadFailed": "تعذر تحميل البيانات",
+  "comingSoon": "قريباً",
+  "openNow": "مفتوح",
+  "closedNow": "مغلق",
+  "perHour": "{price} د.إ / ساعة"
 }

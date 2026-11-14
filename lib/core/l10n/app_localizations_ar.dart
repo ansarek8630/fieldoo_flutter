@@ -92,4 +92,45 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get accountCreateFailed => 'تعذر إنشاء حسابك. حاول مرة أخرى.';
+
+  @override
+  String get tabTurfs => 'الملاعب';
+
+  @override
+  String get tabMatches => 'المباريات';
+
+  @override
+  String get tabChat => 'الدردشة';
+
+  @override
+  String get tabProfile => 'حسابي';
+
+  @override
+  String get searchTurfs => 'ابحث عن ملعب أو منطقة';
+
+  @override
+  String get turfsNearYou => 'ملاعب قريبة منك';
+
+  @override
+  String get noTurfsFound => 'لا توجد ملاعب مطابقة لبحثك';
+
+  @override
+  String get retry => 'إعادة المحاولة';
+
+  @override
+  String get loadFailed => 'تعذر تحميل البيانات';
+
+  @override
+  String get comingSoon => 'قريباً';
+
+  @override
+  String get openNow => 'مفتوح';
+
+  @override
+  String get closedNow => 'مغلق';
+
+  @override
+  String perHour(int price) {
+    return '$price د.إ / ساعة';
+  }
 }

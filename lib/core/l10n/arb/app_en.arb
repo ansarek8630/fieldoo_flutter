@@ -27,5 +27,25 @@
   "takePhoto": "Take a photo",
   "chooseGallery": "Choose from gallery",
   "alreadyHaveAccount": "Already have an account?",
-  "accountCreateFailed": "Could not create your account. Please try again."
+  "accountCreateFailed": "Could not create your account. Please try again.",
+  "tabTurfs": "Turfs",
+  "tabMatches": "Matches",
+  "tabChat": "Chat",
+  "tabProfile": "Profile",
+  "searchTurfs": "Search turfs or areas",
+  "turfsNearYou": "Turfs near you",
+  "noTurfsFound": "No turfs match your search",
+  "retry": "Retry",
+  "loadFailed": "Could not load data",
+  "comingSoon": "Coming soon",
+  "openNow": "Open",
+  "closedNow": "Closed",
+  "perHour": "{price} AED / hour",
+  "@perHour": {
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  }
 }
