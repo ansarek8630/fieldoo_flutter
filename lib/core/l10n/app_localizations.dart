@@ -613,6 +613,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No open matches right now'**
   String get noMatches;
+
+  /// No description provided for @chatsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Chats'**
+  String get chatsTitle;
+
+  /// No description provided for @noChats.
+  ///
+  /// In en, this message translates to:
+  /// **'No chats yet. Join a match to start chatting.'**
+  String get noChats;
+
+  /// No description provided for @typeMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Type a message'**
+  String get typeMessage;
+
+  /// No description provided for @membersCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 player} other{{count} players}}'**
+  String membersCount(int count);
+
+  /// No description provided for @messageSendFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Message not sent. Please try again.'**
+  String get messageSendFailed;
+
+  /// No description provided for @noMessagesYet.
+  ///
+  /// In en, this message translates to:
+  /// **'Say hi to your teammates 👋'**
+  String get noMessagesYet;
+
+  /// No description provided for @chatNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'This chat is no longer available'**
+  String get chatNotFound;
 }
 
 class _AppLocalizationsDelegate

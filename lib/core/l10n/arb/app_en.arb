@@ -153,5 +153,19 @@
   },
   "joinSuccess": "You're in! See you on the pitch.",
   "joinFailed": "Could not join the match. Please try again.",
-  "noMatches": "No open matches right now"
+  "noMatches": "No open matches right now",
+  "chatsTitle": "Chats",
+  "noChats": "No chats yet. Join a match to start chatting.",
+  "typeMessage": "Type a message",
+  "membersCount": "{count, plural, =1{1 player} other{{count} players}}",
+  "@membersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "messageSendFailed": "Message not sent. Please try again.",
+  "noMessagesYet": "Say hi to your teammates 👋",
+  "chatNotFound": "This chat is no longer available"
 }

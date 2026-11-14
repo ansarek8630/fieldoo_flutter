@@ -298,4 +298,35 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get noMatches => 'لا توجد مباريات مفتوحة حالياً';
+
+  @override
+  String get chatsTitle => 'المحادثات';
+
+  @override
+  String get noChats => 'لا توجد محادثات بعد. انضم إلى مباراة لتبدأ الدردشة.';
+
+  @override
+  String get typeMessage => 'اكتب رسالة';
+
+  @override
+  String membersCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count لاعباً',
+      few: '$count لاعبين',
+      two: 'لاعبان',
+      one: 'لاعب واحد',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get messageSendFailed => 'لم يتم إرسال الرسالة. حاول مرة أخرى.';
+
+  @override
+  String get noMessagesYet => 'ألقِ التحية على زملائك 👋';
+
+  @override
+  String get chatNotFound => 'هذه المحادثة لم تعد متاحة';
 }

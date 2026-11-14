@@ -294,4 +294,33 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get noMatches => 'No open matches right now';
+
+  @override
+  String get chatsTitle => 'Chats';
+
+  @override
+  String get noChats => 'No chats yet. Join a match to start chatting.';
+
+  @override
+  String get typeMessage => 'Type a message';
+
+  @override
+  String membersCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count players',
+      one: '1 player',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get messageSendFailed => 'Message not sent. Please try again.';
+
+  @override
+  String get noMessagesYet => 'Say hi to your teammates 👋';
+
+  @override
+  String get chatNotFound => 'This chat is no longer available';
 }
