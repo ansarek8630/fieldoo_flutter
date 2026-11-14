@@ -107,5 +107,51 @@
   },
   "done": "Done",
   "bookingFailed": "Booking failed. Please try again.",
-  "today": "Today"
+  "today": "Today",
+  "matchesTitle": "Open matches",
+  "allFilter": "All",
+  "skillBeginner": "Beginner",
+  "skillIntermediate": "Intermediate",
+  "skillAdvanced": "Advanced",
+  "join": "Join",
+  "joined": "Joined",
+  "matchFull": "Full",
+  "playersCount": "{joined}/{max} players",
+  "@playersCount": {
+    "placeholders": {
+      "joined": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "perPlayer": "{price} AED / player",
+  "@perPlayer": {
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "hostedBy": "Hosted by {name}",
+  "@hostedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "spotsLeft": "{count, plural, =1{1 spot left} other{{count} spots left}}",
+  "@spotsLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "joinSuccess": "You're in! See you on the pitch.",
+  "joinFailed": "Could not join the match. Please try again.",
+  "noMatches": "No open matches right now"
 }

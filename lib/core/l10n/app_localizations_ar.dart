@@ -237,4 +237,65 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get today => 'اليوم';
+
+  @override
+  String get matchesTitle => 'المباريات المفتوحة';
+
+  @override
+  String get allFilter => 'الكل';
+
+  @override
+  String get skillBeginner => 'مبتدئ';
+
+  @override
+  String get skillIntermediate => 'متوسط';
+
+  @override
+  String get skillAdvanced => 'محترف';
+
+  @override
+  String get join => 'انضم';
+
+  @override
+  String get joined => 'منضم';
+
+  @override
+  String get matchFull => 'مكتملة';
+
+  @override
+  String playersCount(int joined, int max) {
+    return '$joined/$max لاعبين';
+  }
+
+  @override
+  String perPlayer(int price) {
+    return '$price د.إ / لاعب';
+  }
+
+  @override
+  String hostedBy(String name) {
+    return 'بتنظيم $name';
+  }
+
+  @override
+  String spotsLeft(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count مكاناً متبقياً',
+      few: '$count أماكن متبقية',
+      two: 'مكانان متبقيان',
+      one: 'مكان واحد متبقٍ',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get joinSuccess => 'تم انضمامك! نراك في الملعب.';
+
+  @override
+  String get joinFailed => 'تعذر الانضمام إلى المباراة. حاول مرة أخرى.';
+
+  @override
+  String get noMatches => 'لا توجد مباريات مفتوحة حالياً';
 }

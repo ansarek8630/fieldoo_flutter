@@ -235,4 +235,63 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get today => 'Today';
+
+  @override
+  String get matchesTitle => 'Open matches';
+
+  @override
+  String get allFilter => 'All';
+
+  @override
+  String get skillBeginner => 'Beginner';
+
+  @override
+  String get skillIntermediate => 'Intermediate';
+
+  @override
+  String get skillAdvanced => 'Advanced';
+
+  @override
+  String get join => 'Join';
+
+  @override
+  String get joined => 'Joined';
+
+  @override
+  String get matchFull => 'Full';
+
+  @override
+  String playersCount(int joined, int max) {
+    return '$joined/$max players';
+  }
+
+  @override
+  String perPlayer(int price) {
+    return '$price AED / player';
+  }
+
+  @override
+  String hostedBy(String name) {
+    return 'Hosted by $name';
+  }
+
+  @override
+  String spotsLeft(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count spots left',
+      one: '1 spot left',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get joinSuccess => 'You\'re in! See you on the pitch.';
+
+  @override
+  String get joinFailed => 'Could not join the match. Please try again.';
+
+  @override
+  String get noMatches => 'No open matches right now';
 }

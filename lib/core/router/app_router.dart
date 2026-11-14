@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../../features/auth/presentation/pages/sign_in_page.dart';
 import '../../features/auth/presentation/pages/sign_up_page.dart';
 import '../../features/booking/presentation/pages/booking_page.dart';
+import '../../features/matches/presentation/pages/matches_page.dart';
 import '../../features/shell/presentation/app_shell.dart';
 import '../../features/splash/presentation/splash_page.dart';
 import '../../features/turfs/presentation/pages/turf_details_page.dart';
@@ -14,9 +15,9 @@ import '../widgets/coming_soon_view.dart';
 final routerProvider = Provider<GoRouter>((ref) => GoRouter(
       initialLocation: '/splash',
       routes: [
-        GoRoute(path: '/splash', builder: (_, __) => const SplashPage()),
-        GoRoute(path: '/sign-in', builder: (_, __) => const SignInPage()),
-        GoRoute(path: '/sign-up', builder: (_, __) => const SignUpPage()),
+        GoRoute(path: '/splash', builder: (_, _) => const SplashPage()),
+        GoRoute(path: '/sign-in', builder: (_, _) => const SignInPage()),
+        GoRoute(path: '/sign-up', builder: (_, _) => const SignUpPage()),
         GoRoute(
           path: '/turfs/:id',
           builder: (_, state) => TurfDetailsPage(turfId: state.pathParameters['id']!),
@@ -28,29 +29,25 @@ final routerProvider = Provider<GoRouter>((ref) => GoRouter(
           ],
         ),
         StatefulShellRoute.indexedStack(
-          builder: (_, __, shell) => AppShell(shell: shell),
+          builder: (_, _, shell) => AppShell(shell: shell),
           branches: [
             StatefulShellBranch(routes: [
-              GoRoute(path: '/home', builder: (_, __) => const TurfListPage()),
+              GoRoute(path: '/home', builder: (_, _) => const TurfListPage()),
             ]),
             StatefulShellBranch(routes: [
-              GoRoute(
-                path: '/matches',
-                builder: (c, __) =>
-                    ComingSoonView(title: c.l10n!.tabMatches, icon: Icons.groups),
-              ),
+              GoRoute(path: '/matches', builder: (_, _) => const MatchesPage()),
             ]),
             StatefulShellBranch(routes: [
               GoRoute(
                 path: '/chat',
-                builder: (c, __) =>
+                builder: (c, _) =>
                     ComingSoonView(title: c.l10n!.tabChat, icon: Icons.chat_bubble),
               ),
             ]),
             StatefulShellBranch(routes: [
               GoRoute(
                 path: '/profile',
-                builder: (c, __) =>
+                builder: (c, _) =>
                     ComingSoonView(title: c.l10n!.tabProfile, icon: Icons.person),
               ),
             ]),

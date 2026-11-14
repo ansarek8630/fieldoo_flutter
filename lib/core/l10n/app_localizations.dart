@@ -523,6 +523,96 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Today'**
   String get today;
+
+  /// No description provided for @matchesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Open matches'**
+  String get matchesTitle;
+
+  /// No description provided for @allFilter.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get allFilter;
+
+  /// No description provided for @skillBeginner.
+  ///
+  /// In en, this message translates to:
+  /// **'Beginner'**
+  String get skillBeginner;
+
+  /// No description provided for @skillIntermediate.
+  ///
+  /// In en, this message translates to:
+  /// **'Intermediate'**
+  String get skillIntermediate;
+
+  /// No description provided for @skillAdvanced.
+  ///
+  /// In en, this message translates to:
+  /// **'Advanced'**
+  String get skillAdvanced;
+
+  /// No description provided for @join.
+  ///
+  /// In en, this message translates to:
+  /// **'Join'**
+  String get join;
+
+  /// No description provided for @joined.
+  ///
+  /// In en, this message translates to:
+  /// **'Joined'**
+  String get joined;
+
+  /// No description provided for @matchFull.
+  ///
+  /// In en, this message translates to:
+  /// **'Full'**
+  String get matchFull;
+
+  /// No description provided for @playersCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{joined}/{max} players'**
+  String playersCount(int joined, int max);
+
+  /// No description provided for @perPlayer.
+  ///
+  /// In en, this message translates to:
+  /// **'{price} AED / player'**
+  String perPlayer(int price);
+
+  /// No description provided for @hostedBy.
+  ///
+  /// In en, this message translates to:
+  /// **'Hosted by {name}'**
+  String hostedBy(String name);
+
+  /// No description provided for @spotsLeft.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 spot left} other{{count} spots left}}'**
+  String spotsLeft(int count);
+
+  /// No description provided for @joinSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'re in! See you on the pitch.'**
+  String get joinSuccess;
+
+  /// No description provided for @joinFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not join the match. Please try again.'**
+  String get joinFailed;
+
+  /// No description provided for @noMatches.
+  ///
+  /// In en, this message translates to:
+  /// **'No open matches right now'**
+  String get noMatches;
 }
 
 class _AppLocalizationsDelegate

@@ -1,8 +1,11 @@
 {
   "@@locale": "ar",
   "appName": "تيرف ميت",
+  "@appName": {},
   "tagline": "اعثر. احجز. العب.",
+  "@tagline": {},
   "welcomeBack": "أهلاً بعودتك",
+  "@welcomeBack": {},
   "signInSubtitle": "سجّل الدخول لحجز الملاعب والانضمام إلى المباريات",
   "signIn": "تسجيل الدخول",
   "email": "البريد الإلكتروني",
@@ -70,5 +73,20 @@
   "bookingConfirmedMsg": "{turf}\n{date} · {time}",
   "done": "تم",
   "bookingFailed": "فشل الحجز. حاول مرة أخرى.",
-  "today": "اليوم"
+  "today": "اليوم",
+  "matchesTitle": "المباريات المفتوحة",
+  "allFilter": "الكل",
+  "skillBeginner": "مبتدئ",
+  "skillIntermediate": "متوسط",
+  "skillAdvanced": "محترف",
+  "join": "انضم",
+  "joined": "منضم",
+  "matchFull": "مكتملة",
+  "playersCount": "{joined}/{max} لاعبين",
+  "perPlayer": "{price} د.إ / لاعب",
+  "hostedBy": "بتنظيم {name}",
+  "spotsLeft": "{count, plural, =1{مكان واحد متبقٍ} =2{مكانان متبقيان} few{{count} أماكن متبقية} other{{count} مكاناً متبقياً}}",
+  "joinSuccess": "تم انضمامك! نراك في الملعب.",
+  "joinFailed": "تعذر الانضمام إلى المباراة. حاول مرة أخرى.",
+  "noMatches": "لا توجد مباريات مفتوحة حالياً"
 }

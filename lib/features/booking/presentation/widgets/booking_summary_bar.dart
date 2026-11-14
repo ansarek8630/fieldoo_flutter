@@ -38,7 +38,7 @@ class BookingSummaryBar extends StatelessWidget {
             const SizedBox(width: AppSpacing.lg),
             Expanded(
               child: AppButton(
-                label: canConfirm ? l!.confirmBooking : l!.selectTimeCta,
+                label: canConfirm ? l.confirmBooking : l.selectTimeCta,
                 isLoading: isLoading,
                 onPressed: canConfirm ? onConfirm : null,
               ),
