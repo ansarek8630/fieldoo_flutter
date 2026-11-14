@@ -1,3 +1,5 @@
+import 'amenity.dart';
+
 class Turf {
   const Turf({
     required this.id,
@@ -7,6 +9,9 @@ class Turf {
     required this.rating,
     required this.formats,
     required this.isOpen,
+    this.opensAt = 6,
+    this.closesAt = 24,
+    this.amenities = const [],
   });
   final String id;
   final String name;
@@ -15,4 +20,7 @@ class Turf {
   final double rating;
   final List<String> formats; // e.g. 5v5, 7v7
   final bool isOpen;
+  final int opensAt; // hour of day, 0-24
+  final int closesAt;
+  final List<Amenity> amenities;
 }

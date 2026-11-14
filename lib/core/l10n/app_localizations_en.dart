@@ -133,4 +133,48 @@ class AppLocalizationsEn extends AppLocalizations {
   String perHour(int price) {
     return '$price AED / hour';
   }
+
+  @override
+  String get formats => 'Formats';
+
+  @override
+  String get openingHours => 'Opening hours';
+
+  @override
+  String get amenities => 'Amenities';
+
+  @override
+  String get bookNow => 'Book now';
+
+  @override
+  String get priceLabel => 'Price';
+
+  @override
+  String hoursRange(String from, String to) {
+    return '$from – $to';
+  }
+
+  @override
+  String get turfNotFound => 'This turf is no longer available';
+
+  @override
+  String get amenityParking => 'Parking';
+
+  @override
+  String get amenityFloodlights => 'Floodlights';
+
+  @override
+  String get amenityChangingRooms => 'Changing rooms';
+
+  @override
+  String get amenityShowers => 'Showers';
+
+  @override
+  String get amenityCafe => 'Cafe';
+
+  @override
+  String get amenityWifi => 'Wi-Fi';
+
+  @override
+  String get amenityWater => 'Drinking water';
 }

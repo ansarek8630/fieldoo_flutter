@@ -3,6 +3,7 @@ import '../../data/datasources/turf_remote_data_source.dart';
 import '../../data/repositories/turf_repository_impl.dart';
 import '../../domain/entities/turf.dart';
 import '../../domain/repositories/turf_repository.dart';
+import '../../domain/usecases/get_turf_by_id_usecase.dart';
 import '../../domain/usecases/get_turfs_usecase.dart';
 
 // DI graph: datasource -> repository -> usecase
@@ -28,3 +29,10 @@ final filteredTurfsProvider = Provider.autoDispose<AsyncValue<List<Turf>>>((ref)
               t.name.toLowerCase().contains(query) || t.area.toLowerCase().contains(query))
           .toList());
 });
+
+final getTurfByIdUseCaseProvider = Provider<GetTurfByIdUseCase>(
+    (ref) => GetTurfByIdUseCase(ref.watch(turfRepositoryProvider)));
+
+/// Single turf by id (null when it no longer exists).
+final turfDetailsProvider = FutureProvider.autoDispose.family<Turf?, String>(
+    (ref, id) => ref.watch(getTurfByIdUseCaseProvider).call(id));

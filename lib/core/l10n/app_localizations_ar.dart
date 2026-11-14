@@ -133,4 +133,48 @@ class AppLocalizationsAr extends AppLocalizations {
   String perHour(int price) {
     return '$price د.إ / ساعة';
   }
+
+  @override
+  String get formats => 'أنواع المباريات';
+
+  @override
+  String get openingHours => 'ساعات العمل';
+
+  @override
+  String get amenities => 'المرافق';
+
+  @override
+  String get bookNow => 'احجز الآن';
+
+  @override
+  String get priceLabel => 'السعر';
+
+  @override
+  String hoursRange(String from, String to) {
+    return '$from – $to';
+  }
+
+  @override
+  String get turfNotFound => 'هذا الملعب لم يعد متاحاً';
+
+  @override
+  String get amenityParking => 'مواقف سيارات';
+
+  @override
+  String get amenityFloodlights => 'إضاءة كاشفة';
+
+  @override
+  String get amenityChangingRooms => 'غرف تبديل';
+
+  @override
+  String get amenityShowers => 'دشّات';
+
+  @override
+  String get amenityCafe => 'مقهى';
+
+  @override
+  String get amenityWifi => 'واي فاي';
+
+  @override
+  String get amenityWater => 'مياه شرب';
 }

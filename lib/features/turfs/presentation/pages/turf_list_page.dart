@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import '../../../../core/extensions/context_x.dart';
 import '../../../../core/theme/app_spacing.dart';
 import '../../../../core/widgets/app_search_field.dart';
@@ -46,7 +47,7 @@ class TurfListPage extends ConsumerWidget {
                         separatorBuilder: (_, __) => const SizedBox(height: AppSpacing.md),
                         itemBuilder: (_, i) => TurfCard(
                           turf: list[i],
-                          onTap: () {}, // Turf details route arrives in the next step
+                          onTap: () => context.push('/turfs/${list[i].id}'),
                         ),
                       ),
                     ),

@@ -47,5 +47,29 @@
         "type": "int"
       }
     }
-  }
+  },
+  "formats": "Formats",
+  "openingHours": "Opening hours",
+  "amenities": "Amenities",
+  "bookNow": "Book now",
+  "priceLabel": "Price",
+  "hoursRange": "{from} – {to}",
+  "@hoursRange": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "turfNotFound": "This turf is no longer available",
+  "amenityParking": "Parking",
+  "amenityFloodlights": "Floodlights",
+  "amenityChangingRooms": "Changing rooms",
+  "amenityShowers": "Showers",
+  "amenityCafe": "Cafe",
+  "amenityWifi": "Wi-Fi",
+  "amenityWater": "Drinking water"
 }

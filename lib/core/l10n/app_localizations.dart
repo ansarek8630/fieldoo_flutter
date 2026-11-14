@@ -343,6 +343,90 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{price} AED / hour'**
   String perHour(int price);
+
+  /// No description provided for @formats.
+  ///
+  /// In en, this message translates to:
+  /// **'Formats'**
+  String get formats;
+
+  /// No description provided for @openingHours.
+  ///
+  /// In en, this message translates to:
+  /// **'Opening hours'**
+  String get openingHours;
+
+  /// No description provided for @amenities.
+  ///
+  /// In en, this message translates to:
+  /// **'Amenities'**
+  String get amenities;
+
+  /// No description provided for @bookNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Book now'**
+  String get bookNow;
+
+  /// No description provided for @priceLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Price'**
+  String get priceLabel;
+
+  /// No description provided for @hoursRange.
+  ///
+  /// In en, this message translates to:
+  /// **'{from} – {to}'**
+  String hoursRange(String from, String to);
+
+  /// No description provided for @turfNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'This turf is no longer available'**
+  String get turfNotFound;
+
+  /// No description provided for @amenityParking.
+  ///
+  /// In en, this message translates to:
+  /// **'Parking'**
+  String get amenityParking;
+
+  /// No description provided for @amenityFloodlights.
+  ///
+  /// In en, this message translates to:
+  /// **'Floodlights'**
+  String get amenityFloodlights;
+
+  /// No description provided for @amenityChangingRooms.
+  ///
+  /// In en, this message translates to:
+  /// **'Changing rooms'**
+  String get amenityChangingRooms;
+
+  /// No description provided for @amenityShowers.
+  ///
+  /// In en, this message translates to:
+  /// **'Showers'**
+  String get amenityShowers;
+
+  /// No description provided for @amenityCafe.
+  ///
+  /// In en, this message translates to:
+  /// **'Cafe'**
+  String get amenityCafe;
+
+  /// No description provided for @amenityWifi.
+  ///
+  /// In en, this message translates to:
+  /// **'Wi-Fi'**
+  String get amenityWifi;
+
+  /// No description provided for @amenityWater.
+  ///
+  /// In en, this message translates to:
+  /// **'Drinking water'**
+  String get amenityWater;
 }
 
 class _AppLocalizationsDelegate

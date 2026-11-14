@@ -40,5 +40,19 @@
   "comingSoon": "قريباً",
   "openNow": "مفتوح",
   "closedNow": "مغلق",
-  "perHour": "{price} د.إ / ساعة"
+  "perHour": "{price} د.إ / ساعة",
+  "formats": "أنواع المباريات",
+  "openingHours": "ساعات العمل",
+  "amenities": "المرافق",
+  "bookNow": "احجز الآن",
+  "priceLabel": "السعر",
+  "hoursRange": "{from} – {to}",
+  "turfNotFound": "هذا الملعب لم يعد متاحاً",
+  "amenityParking": "مواقف سيارات",
+  "amenityFloodlights": "إضاءة كاشفة",
+  "amenityChangingRooms": "غرف تبديل",
+  "amenityShowers": "دشّات",
+  "amenityCafe": "مقهى",
+  "amenityWifi": "واي فاي",
+  "amenityWater": "مياه شرب"
 }

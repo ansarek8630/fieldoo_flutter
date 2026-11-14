@@ -8,4 +8,7 @@ class TurfRepositoryImpl implements TurfRepository {
 
   @override
   Future<List<Turf>> getTurfs() => _remote.fetchTurfs();
+
+  @override
+  Future<Turf?> getTurfById(String id) => _remote.fetchTurfById(id);
 }
